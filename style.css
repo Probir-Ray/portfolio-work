@@ -12,6 +12,7 @@ span.orange {
 }
 section {
   display: flex;
+  padding: 75px 0;
 }
 .top-banner {
   background-image: url(image/top-banner.png);
@@ -19,7 +20,7 @@ section {
 }
 .half-width {
   width: 50%;
-  padding-left: 7%;
+  padding-left: 4%;
 }
 .half-width img {
   width: 85%;
@@ -29,10 +30,18 @@ section {
 .link-btn {
   text-transform: uppercase;
   font-weight: 700;
-  background-image: linear-gradient(#ff7f50, #cd853f);
+  background-image: linear-gradient(orange, #e6b800);
   text-decoration: none;
   padding: 10px 40px;
   color: aliceblue;
   border-radius: 5px;
+  display: inline-block;
+  margin-top: 0.75em;
 }
-.
+
+.dream-big {
+  background: url(image/dream-bg.png) no-repeat right #f2f2f2;
+}
+.dream-big p {
+  padding-right: 7em;
+}
