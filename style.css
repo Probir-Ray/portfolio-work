@@ -12,7 +12,7 @@ span.orange {
 }
 section {
   display: flex;
-  padding: 75px 0;
+  padding: 65px 0 75px 0;
 }
 .top-banner {
   background-image: url(image/top-banner.png);
